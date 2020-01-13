@@ -5,74 +5,46 @@ body {
     color: #eeeeee;
 }
 
-h1 {
-    color: lightgrey;
-    text-align: center;
-}
+h1 {color: #cccccc;}
 
 p {
-    font-family: arial;
     font-size: 1.2em;
-    color: white;
+    color: #ffffff;
 }
 
-#statusloader {
-	background:#222222;
-	font-family: arial;
-    	font-size: 1.3em;
-    	color: white;
-
-
+div {
+	background: #222222;
+    font-size: 1.3em;
+    color: #ffffff;
 }
 
 button {
     background-color: #111111;
-    width:6.5em;
+    width: 6.5em;
     padding: 0.6em;
-    border: 0.1em solid #4444ff ;
-    font-size: 1em;
-    color: #EEEEEE;
+    border: 0.1em solid #4444ff;
+    color: #eeeeee;
     text-decoration: none;
     text-align: center;
-    
-    
-    
+
 }
+
+button:hover {background-color: #333333;}
 
 a {
-
-background:#ffffff;
-color:#000055;
-text-decoration:none;
-
+    background: #ffffff;
+    color: #000055;
+    text-decoration: none;
+    margin: 0.3em;
+    display: inline-block;
+    background: #666666;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 0.3em;
 }
 
-a:hover {
+a:hover {background:#555555;}
 
-background:#cccccc;
-
-
-
-}
-
-.textref {
-display: inline-block;
-font-size:1em;
-background:#666666;
-color:#ffffff;
-border:1px solid white;
-margin: 0.2em;
-padding: 0.2em;
-	
-}
-
-.textref:hover {
-
-
-background:#333333;
-color:#eeeeee;
-
-}
 
 table, th, td {
    text-align: center;
@@ -80,7 +52,4 @@ table, th, td {
    
 }
 
-canvas {
-	border: 0.1em solid #eeeeee ;
-	
-}
+canvas {border: 0.1em solid #eeeeee;}
