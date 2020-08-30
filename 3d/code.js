@@ -705,12 +705,12 @@ window.onload= function() {
 		
 		for(i=0;i<bricks.length;i++) {
 			
-			bricks[i].style.border="solid 1px white";
+			bricks[i].style.border="solid 1px black";
 		
 		}
 		
 		currentbrick=this.id;
-		this.style.border="solid 1px yellow"
+		this.style.border="solid 1px blue"
 		
 				
 	};
@@ -718,7 +718,7 @@ window.onload= function() {
 	var i;
 	for(i=0;i<bricks.length;i++) {
 		bricks[i].onclick=selectbrick.bind(bricks[i]);
-		bricks[i].style.border="solid 1px white";
+		bricks[i].style.border="solid 1px black";
 		
 	}
 	
