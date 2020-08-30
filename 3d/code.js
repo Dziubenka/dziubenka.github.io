@@ -722,7 +722,7 @@ window.onload= function() {
 		
 	}
 	
-	bricks[0].style.border="solid 2px black"; // currentbrick=0
+	bricks[0].style.border="solid 2px blue"; // currentbrick=0
 	
 	dwx=-1;
 	dwy=0;
